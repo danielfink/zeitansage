@@ -21,7 +21,7 @@ Zeitansage starten:
 
 Datumsansage starten:
 ```
-./Datumsansage
+./Datumsansage.sh
 ```
 
 

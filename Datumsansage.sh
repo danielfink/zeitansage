@@ -46,5 +46,5 @@ espeak -vde "Heute ist `date +%A` der $Tag `date +%B` `date +%Y`." -w WAVE_Datum
 # OMXPlayer gibt WAVE_Datumsansage aus.
 omxplayer WAVE_Datumsansage
 
-# WAVE_Datumsansage wird wieder geloescht.
+# WAVE_Datumsansage wird wieder gelöscht.
 rm WAVE_Datumsansage

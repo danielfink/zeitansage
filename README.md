@@ -1,5 +1,5 @@
 Zeitansage und Datumsansage für den Raspberry Pi
-================================================
+
 
 Hinweise
 
@@ -7,8 +7,8 @@ Hinweise
 
 sudo apt-get install espeak omxplayer
 
-2. Den Skripten müssen die nötigen Dateirechte zugewiesen werden
+2. Installation der Scripte:
 
-sudo chmod +x Zeitansage.sh && sudo chmod+x Datumsansage.sh
+git clone https://github.com/raspberrypi-blog/zeitansage && cd zeitansage && sudo chmod +x Zeitansage.sh && sudo chmod +x Datumsansage.sh
 
 

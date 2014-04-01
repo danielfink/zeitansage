@@ -11,7 +11,7 @@ sudo apt-get install espeak omxplayer
 
 Installation der Scripte:
 ```
-git clone https://github.com/danielfink/zeitansage && cd zeitansage && sudo chmod +x Zeitansage.sh && sudo chmod +x Datumsansage.sh
+git clone https://github.com/danielfink/zeitansage && cd zeitansage && chmod +x Zeitansage.sh && chmod +x Datumsansage.sh
 ```
 
 Zeitansage starten:

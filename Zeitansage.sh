@@ -26,5 +26,5 @@ espeak -vde "Es ist $Stunden Uhr $Minuten." -w WAVE_Zeitansage
 # OMXPlayer gibt WAVE_Zeitsage aus.
 omxplayer WAVE_Zeitansage
 
-# WAVE_Zeitansage wird wieder geloescht.
+# WAVE_Zeitansage wird wieder gelöscht.
 rm WAVE_Zeitansage

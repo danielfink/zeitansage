@@ -1,8 +1,8 @@
-##Zeitansage und Datumsansage für den Raspberry Pi
+###Zeitansage und Datumsansage für den Raspberry Pi
 
 Autor: Daniel Fink
 
-###Hinweise
+####Hinweise
 
 eSpeak und OMXPlayer müssen installiert sein:
 ```

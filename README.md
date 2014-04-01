@@ -1,7 +1,5 @@
-Zeitansage und Datumsansage
-===========================
-für den Raspberry Pi
-====================
+Zeitansage und Datumsansage für den Raspberry Pi
+================================================
 
 Hinweise
 

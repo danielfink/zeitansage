@@ -8,40 +8,40 @@
 
 # Kardinalzahlen werden in Ordinalzahlen umgewandelt.
 case "`date +%e`" in
-        " 1") day=erste                 ;;
-        " 2") day=zweite                ;;
-        " 3") day=dritte                ;;
-        " 4") day=vierte                ;;
-        " 5") day=fÃ¼nfte               ;;
-        " 6") day=sechste               ;;
-        " 7") day=siebte                ;;
-        " 8") day=achte                 ;;
-        " 9") day=neunte                ;;
-        "10") day=zehnte                ;;
-        "11") day=elfte                 ;;
-        "12") day=zwÃ¶lfte              ;;
-        "13") day=dreizehnte            ;;
-        "14") day=vierzehnte            ;;
-        "15") day=fÃ¼nfzehnte           ;;
-        "16") day=sechzehnte            ;;
-        "17") day=siebzehnte            ;;
-        "18") day=achtzehnte            ;;
-        "19") day=neunzehnte            ;;
-        "20") day=zwanzigste            ;;
-        "21") day=einundzwanzigste      ;;
-        "22") day=zweiundzwanzigste     ;;
-        "23") day=dreiundzwanzigste     ;;
-        "24") day=vierundzwanzigste     ;;
-        "25") day=fÃ¼nfundzwanzigste     ;;
-        "26") day=sechsundzwanzigste    ;;
-        "27") day=siebenundzwanzigste   ;;
-        "28") day=achtundzwanzigste     ;;
-        "29") day=neunundzwanzigste     ;;
-        "30") day=dreiÃigste            ;;
+        " 1") Tag=erste                 ;;
+        " 2") Tag=zweite                ;;
+        " 3") Tag=dritte                ;;
+        " 4") Tag=vierte                ;;
+        " 5") Tag=fÃ¼nfte               ;;
+        " 6") Tag=sechste               ;;
+        " 7") Tag=siebte                ;;
+        " 8") Tag=achte                 ;;
+        " 9") Tag=neunte                ;;
+        "10") Tag=zehnte                ;;
+        "11") Tag=elfte                 ;;
+        "12") Tag=zwÃ¶lfte              ;;
+        "13") Tag=dreizehnte            ;;
+        "14") Tag=vierzehnte            ;;
+        "15") Tag=fÃ¼nfzehnte           ;;
+        "16") Tag=sechzehnte            ;;
+        "17") Tag=siebzehnte            ;;
+        "18") Tag=achtzehnte            ;;
+        "19") Tag=neunzehnte            ;;
+        "20") Tag=zwanzigste            ;;
+        "21") Tag=einundzwanzigste      ;;
+        "22") Tag=zweiundzwanzigste     ;;
+        "23") Tag=dreiundzwanzigste     ;;
+        "24") Tag=vierundzwanzigste     ;;
+        "25") Tag=fÃ¼nfundzwanzigste     ;;
+        "26") Tag=sechsundzwanzigste    ;;
+        "27") Tag=siebenundzwanzigste   ;;
+        "28") Tag=achtundzwanzigste     ;;
+        "29") Tag=neunundzwanzigste     ;;
+        "30") Tag=dreiÃigste            ;;
 esac
 
 # eSpeak-Ausgabe wird in WAVE_Datumsansage gespeichert.
-espeak -vde "Heute ist `date +%A` der $day `date +%B` `date +%Y`." -w WAVE_Datumsansage
+espeak -vde "Heute ist `date +%A` der $Tag `date +%B` `date +%Y`." -w WAVE_Datumsansage
 
 # OMXPlayer gibt WAVE_Datumsansage aus.
 omxplayer WAVE_Datumsansage

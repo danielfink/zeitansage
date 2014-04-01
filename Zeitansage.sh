@@ -13,7 +13,7 @@ else
  Stunden=`date +%k`
 fi
 
-# Bei vollen Stunden wird die Null nach dem Wort Uhr entfernt.
+# Bei vollen Stunden wird die Null für die Minuten entfernt.
 if [ "`date +%-M`" = "0" ]; then
  Minuten=""
 else

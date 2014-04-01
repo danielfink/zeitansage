@@ -38,6 +38,7 @@ case "`date +%e`" in
         "28") Tag=achtundzwanzigste     ;;
         "29") Tag=neunundzwanzigste     ;;
         "30") Tag=dreißigste            ;;
+        "31") Tag=einunddreißigste      ;;
 esac
 
 # eSpeak-Ausgabe wird in WAVE_Datumsansage gespeichert.

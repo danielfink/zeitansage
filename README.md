@@ -24,8 +24,4 @@ Datumsansage starten:
 ./Datumsansage.sh
 ```
 
-
-
-
-
-
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=danielfink&url=https://github.com/danielfink/zeitansage&title=Zeitansage&language=&tags=github&category=software)

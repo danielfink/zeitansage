@@ -12,17 +12,17 @@ case "`date +%e`" in
         " 2") Tag=zweite                ;;
         " 3") Tag=dritte                ;;
         " 4") Tag=vierte                ;;
-        " 5") Tag=fÃ¼nfte               ;;
+        " 5") Tag=fünfte               ;;
         " 6") Tag=sechste               ;;
         " 7") Tag=siebte                ;;
         " 8") Tag=achte                 ;;
         " 9") Tag=neunte                ;;
         "10") Tag=zehnte                ;;
         "11") Tag=elfte                 ;;
-        "12") Tag=zwÃ¶lfte              ;;
+        "12") Tag=zwölfte              ;;
         "13") Tag=dreizehnte            ;;
         "14") Tag=vierzehnte            ;;
-        "15") Tag=fÃ¼nfzehnte           ;;
+        "15") Tag=fünfzehnte           ;;
         "16") Tag=sechzehnte            ;;
         "17") Tag=siebzehnte            ;;
         "18") Tag=achtzehnte            ;;
@@ -32,12 +32,12 @@ case "`date +%e`" in
         "22") Tag=zweiundzwanzigste     ;;
         "23") Tag=dreiundzwanzigste     ;;
         "24") Tag=vierundzwanzigste     ;;
-        "25") Tag=fÃ¼nfundzwanzigste     ;;
+        "25") Tag=fünfundzwanzigste     ;;
         "26") Tag=sechsundzwanzigste    ;;
         "27") Tag=siebenundzwanzigste   ;;
         "28") Tag=achtundzwanzigste     ;;
         "29") Tag=neunundzwanzigste     ;;
-        "30") Tag=dreiÃigste            ;;
+        "30") Tag=dreißigste            ;;
 esac
 
 # eSpeak-Ausgabe wird in WAVE_Datumsansage gespeichert.

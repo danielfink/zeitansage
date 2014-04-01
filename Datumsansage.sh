@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-## Datumsansage Auf Deutsch
+## Datumsansage auf Deutsch
 #
 ## Version 0.1
 #

@@ -7,7 +7,7 @@
 ## Autor: Daniel Fink
 
 # "Es ist eins Uhr..." wird zu "Es ist ein Uhr...".
-if [ "`date +%k`" = "1" ]; then
+if [ "`date +%k`" = " 1" ]; then
  Stunden=ein
 else
  Stunden=`date +%k`
